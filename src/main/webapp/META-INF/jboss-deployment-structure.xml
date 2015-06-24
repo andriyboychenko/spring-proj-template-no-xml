@@ -1,0 +1,9 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.0">
+	<deployment>
+		<!-- BUG in hibernate https://developer.jboss.org/thread/195925
+		<dependencies>  
+	        <module name="org.hibernate" />  As jboss comes with hibernate, it will allow to do not include hibernate in WAR 
+		</dependencies>
+		 -->
+  	</deployment>
+</jboss-deployment-structure>
